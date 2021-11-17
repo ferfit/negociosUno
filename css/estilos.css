@@ -116,19 +116,52 @@ body{
 }
 .todo__logo{
     position: absolute;
-    top: 50px;
+    top: -50px;
     left: 20px;
-    width: 60%;
-    
+    width: 55%;
 }
 .todo__parrafo{
-    margin-top: 150px;
+    margin-top: 120px;
 }
 .todo__red{
     background-color: #ed7311;
 }
 
+/*----------------------------------------------------------------*/
+/*                            Mision                              */
+/*----------------------------------------------------------------*/
+.mision__imagen{
+    width: 100%;
+    height: auto;
+}
 
+/*----------------------------------------------------------------*/
+/*                            Entrada                             */
+/*----------------------------------------------------------------*/
+.entrada {
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url(../img/entrada__fondo.jpg);
+}
+.entrada__logo{
+    width: 60%;
+}
+.entrada__red{
+    background-color: #293332;
+}
+
+/*----------------------------------------------------------------*/
+/*                            Opherton                            */
+/*----------------------------------------------------------------*/
+.opherton {
+    background-image: linear-gradient(
+0deg, rgba(9,124,119,0.65), rgba(9,124,119,0.65)), url(../img/opherton__fondo.jpg);
+}
+
+/*----------------------------------------------------------------*/
+/*                            Opherton                            */
+/*----------------------------------------------------------------*/
+.firstCripto{
+        background-image: linear-gradient(0deg, rgba(10,9,101,0.5), rgba(10,9,101,0.5)), url(../img/firstcripto__fondo.jpg);
+    } 
 
 
 @media (min-width: 768px) { 
@@ -164,6 +197,20 @@ body{
         width: 100%;
     }
 
+    /*Todo*/
+    .todo__logo{
+        top: -50px;
+        left: 153px;
+    }
+    .todo__parrafo{
+        margin-top: 150px;
+    } 
+
+    /*Entrada*/
+    .entrada__logo{
+        width: 60%;
+    }
+
 }
 
 
@@ -185,6 +232,24 @@ body{
     .soluciones__imagen{
         width: 70%;
     }
+
+    /*Todo*/
+    /*Todo*/
+    .todo__logo{
+        left: 210px;
+    }
+    .todo__cont-redes{
+        padding-left: 100px;
+    }
+    .todo__cont-leer{
+        padding-left: 70px;
+    }
+
+    /*Mision*/
+    .mision__imagen{
+        width: auto;
+        height: auto;
+    }
  }
 
 
@@ -202,6 +267,27 @@ body{
     .pago__iva{
         left: 30px;
     }
+
+    /*Todo*/
+    .todo__titulo{
+        margin-top: 120px;
+    }
+    .todo__logo{
+        width: 40%;
+        top: -75px;
+        left: 336px;
+    }
+    .todo__parrafo{
+        margin-top: 120px;
+    }
+    .todo__cont-leer{
+        padding-left: 25px;
+    }
+
+    /*Entrada*/
+    .entrada__logo{
+        width: 40%;
+    }
  }
 
 
@@ -214,6 +300,27 @@ body{
     /*Soluciones*/
     .soluciones__imagen{
         width: 50%;
+    }
+
+    /*Todo*/
+    .todo__titulo{
+        margin-top: 128px;
+    }
+    .todo__logo{
+        width: 30%;
+        left: 460px;
+        top: -50px;
+    }
+    .todo__parrafo{
+        margin-top: 130px;
+    }
+    .todo__cont-leer {
+        padding-left: 55px;
+    }
+
+    /*Entrada*/
+    .entrada__logo{
+        width: 31%;
     }
 
     
