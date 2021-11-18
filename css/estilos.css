@@ -149,19 +149,50 @@ body{
 }
 
 /*----------------------------------------------------------------*/
+/*                            Vision                              */
+/*----------------------------------------------------------------*/
+.vision__imagen{
+    width: 100%;
+}
+
+/*----------------------------------------------------------------*/
 /*                            Opherton                            */
 /*----------------------------------------------------------------*/
 .opherton {
     background-image: linear-gradient(
 0deg, rgba(9,124,119,0.65), rgba(9,124,119,0.65)), url(../img/opherton__fondo.jpg);
 }
+.opherton__logo{
+    margin-top: 2px;
+    position: relative;
+    left: 10px;
+}
+.opherton__parrafo{
+    margin-top: 60px;
+}
 
 /*----------------------------------------------------------------*/
-/*                            Opherton                            */
+/*                            Valores                             */
+/*----------------------------------------------------------------*/
+.valores__imagen{
+    width: 100%;
+}
+
+/*----------------------------------------------------------------*/
+/*                            Firstcripto                         */
 /*----------------------------------------------------------------*/
 .firstCripto{
         background-image: linear-gradient(0deg, rgba(10,9,101,0.5), rgba(10,9,101,0.5)), url(../img/firstcripto__fondo.jpg);
-    } 
+} 
+.firstcripto__logo{
+    width: 100%;
+    position: relative;
+    top: -84px;
+    left: -59px;
+}
+.firstcripto__parrafo{
+    margin-top: -116px;
+}
 
 
 @media (min-width: 768px) { 
@@ -211,6 +242,24 @@ body{
         width: 60%;
     }
 
+     /*Opherton*/
+     .opherton__logo{
+        left: 136px;
+    }
+
+    /*Valores*/
+    .valores__imagen{
+        object-fit: cover;
+    }
+    .firstcripto__logo{
+        top: -86px;
+        left: -62px;
+    }
+    .firstcripto__parrafo {
+        margin-top: -126px;
+    }
+
+    
 }
 
 
@@ -234,7 +283,6 @@ body{
     }
 
     /*Todo*/
-    /*Todo*/
     .todo__logo{
         left: 210px;
     }
@@ -245,11 +293,34 @@ body{
         padding-left: 70px;
     }
 
+    /*Vision*/
+    .vision__imagen{
+        width: 75%;
+    }
+
     /*Mision*/
     .mision__imagen{
         width: auto;
         height: auto;
     }
+    
+    /*Opherton*/
+     .opherton__logo{
+        width:60%;
+        left: 182px;
+    }
+
+    /*Firstcripto*/
+    .firstcripto__logo{
+        top: -125px;
+        left: -84px;
+    }
+    .firstcripto__parrafo {
+        margin-top: -199px;
+    }
+
+    
+    
  }
 
 
@@ -288,6 +359,32 @@ body{
     .entrada__logo{
         width: 40%;
     }
+
+    /*Vision*/
+    .vision__imagen{
+        width: 60%;
+    }
+
+    /*Opherton*/
+    .opherton__logo{
+        width:40%;
+        left: 326px;
+    }
+
+    /*Valores*/
+    .valores__imagen{
+        width: 70%;
+    }
+
+    /*FirstCripto*/
+    .firstcripto__logo{
+        width: 60%;
+        top: -70px;
+        left: -55px;
+    }
+    .firstcripto__parrafo {
+        margin-top: -110px;
+    }
  }
 
 
@@ -321,6 +418,27 @@ body{
     /*Entrada*/
     .entrada__logo{
         width: 31%;
+    }
+
+    /*Vision*/
+    .vision__imagen{
+        width: 70%;
+    }
+
+    /*Opherton*/
+    .opherton__logo{
+        width:31%;
+        left: 440px;
+    }
+
+    /*FirstCripto*/
+    .firstcripto__logo{
+        width: 60%;
+        top: -102px;
+        left: -71px;
+    }
+    .firstcripto__parrafo {
+        margin-top: -160px;
     }
 
     
