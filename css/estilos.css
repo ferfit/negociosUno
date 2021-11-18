@@ -54,10 +54,10 @@ body{
     transition: all 500ms ease-in-out;
 }
 .header__img{
-    width: 90%;
+    width: 95%;
     position: relative;
     z-index: 0;
-    margin-top: 90px;
+    margin-top: 120px;
 }
 .header__titulo{
     font-weight: 500;
@@ -194,10 +194,28 @@ body{
     margin-top: -116px;
 }
 
+/*----------------------------------------------------------------*/
+/*                            Publicidad                          */
+/*----------------------------------------------------------------*/
+.publicidad{
+    height: 350px;
+    z-index: 1;
+}
+
+.capa{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.257), rgba(11, 9, 116, 0.251));
+}
+
 
 @media (min-width: 768px) { 
     .header__img{
         width: 70%;
+        margin-top: 196px;
        
     }
     .header__titulo{
@@ -257,6 +275,11 @@ body{
     }
     .firstcripto__parrafo {
         margin-top: -126px;
+    }
+
+    /*Publicidad*/
+    .publicidad{
+        height: 700px;
     }
 
     
@@ -319,6 +342,11 @@ body{
         margin-top: -199px;
     }
 
+    /*Publicidad*/
+    .publicidad{
+        height: 960px;
+    }
+
     
     
  }
@@ -326,8 +354,8 @@ body{
 
 @media (min-width: 1200px) { 
     .header__img{
-        width: 40%;
-        margin-top: 50px;
+        width: 50%;
+        margin-top: 70px;
        
     }
     .header__titulo{
@@ -385,6 +413,11 @@ body{
     .firstcripto__parrafo {
         margin-top: -110px;
     }
+
+    /*Publicidad*/
+    .publicidad{
+        height: 1280px;
+    }
  }
 
 
@@ -440,6 +473,12 @@ body{
     .firstcripto__parrafo {
         margin-top: -160px;
     }
+
+    /*Publicidad*/
+    .publicidad{
+        height: 1700px;
+    }
+   
 
     
  }
