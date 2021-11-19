@@ -24,11 +24,11 @@
 <?php
 
 $destinatario = 'ferfit16@gmail.com';
-$from = 'info@negociosuno.com';
+$from = 'negociosUno@negociosuno.com';
 $nombre = $_POST['nombre'];
 $telefono = $_POST['telefono'];
 $email = $_POST['email'];
-$servicio= $_POST['ecosistema'];
+$ecosistema= $_POST['ecosistema'];
 $mensaje= $_POST['mensaje'];
 $contenido = "Nombre: " . $nombre .  "\nTelefono: " . $telefono ."\nEmail: " . $email . "\nEcosistema solicitado: " . $ecosistema . "\nMensaje: " . $mensaje;
 
