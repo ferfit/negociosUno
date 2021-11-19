@@ -63,6 +63,9 @@ body{
     z-index: 0;
     margin-top: 120px;
 }
+.header__img-top{
+    margin-top: 155px;
+}
 .header__titulo{
     font-weight: 500;
 }
