@@ -211,6 +211,23 @@ body{
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.257), rgba(11, 9, 116, 0.251));
 }
 
+/*----------------------------------------------------------------*/
+/*                            Contacto                            */
+/*----------------------------------------------------------------*/
+.contacto{
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/contacto__fondo.jpg);
+}
+.contacto__eslogan{
+    font-size: 30px;
+    font-weight: 500;
+}
+.contacto__cont-formulario{
+    background-color: rgba(255, 255, 255, 0.767);
+}
+.contacto__boton-enviar{
+    background-color:#0a0965 ;
+}
+
 
 @media (min-width: 768px) { 
     .header__img{
@@ -411,12 +428,12 @@ body{
         left: -55px;
     }
     .firstcripto__parrafo {
-        margin-top: -110px;
+        margin-top: -1;
     }
 
     /*Publicidad*/
     .publicidad{
-        height: 1280px;
+        height: 1100px;
     }
  }
 
