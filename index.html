@@ -31,6 +31,9 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
 
 </head>
 
@@ -38,7 +41,7 @@
     <!-- ---------------------------------------------------------------------------------------------------------------------------------------------------- -->
     <!--                                                                 Header                                                                               -->
     <!-- ---------------------------------------------------------------------------------------------------------------------------------------------------- -->
-    <header class="header">
+    <header class="header overflow-hidden fondoGeneral">
         <div class="container py-2">
 
             <!-- icono hamburguesa -->
@@ -53,7 +56,8 @@
             </div>
 
             <!-- menu -->
-            <nav class="menu" id="menu">
+            <nav class="menu" id="menu" 
+            >
                 <ul class="menu__list p-0 d-flex flex-column justify-content-around
                     flex-md-row justify-content-around">
                     <li class="menu__item"><a href="index.html"
@@ -72,9 +76,20 @@
                 </ul>
             </nav>
 
-            <img src="./img/NEGOCIOS UNO.png" alt="" class="header__img d-block mx-auto">
+            <img src="./img/NEGOCIOS UNO.png" alt="" class="header__img d-block mx-auto" 
+            data-aos="fade-up"
+            data-aos-offset="10" 
+            data-aos-delay="" 
+            data-aos-duration="1000" 
+            data-aos-easing="ease-in-out">
 
-            <h1 class="header__titulo text-center text-white">HACEMOS MÁS POR <br> MUCHO MENOS</h1>
+            <h1 class="header__titulo text-center text-white"
+            data-aos="fade-in"
+            data-aos-offset="10" 
+            data-aos-delay="400" 
+            data-aos-duration="1500" 
+            data-aos-easing="ease-in-out">
+            HACEMOS MÁS POR <br> MUCHO MENOS</h1>
 
 
 
@@ -621,7 +636,7 @@
     <!-- ---------------------------------------------------------------------------------------------------------------------------------------------------- -->
     <!--                                                                 Clientes                                                                             -->
     <!-- ---------------------------------------------------------------------------------------------------------------------------------------------------- -->
-    <section class="fondoGris">
+    <section class="fondoGris overflow-hidden">
         <div class="container py-5">
             <div class="owl-carousel">
                 <div class="d-flex justify-content-center align-items-center"> <img src="./img/FDEFLOR.png" alt="">
@@ -672,22 +687,22 @@
     <!-- ---------------------------------------------------------------------------------------------------------------------------------------------------- -->
     <!--                                                                 Contacto                                                                             -->
     <!-- ---------------------------------------------------------------------------------------------------------------------------------------------------- -->
-    <section class="contacto fondoGeneral" id="contacto">
+    <section class="contacto fondoGeneral overflow-hidden" id="contacto">
         <div class="container py-5">
             <h1 class="quienes__titulo text-white text-center mb-3 px-3">CONTÁCTANOS</h1>
             <div class="row justify-content-center align-items-center py-5">
                 <div class="col-12 col-md-3 d-flex flex-column justify-content-center align-items-center">
                     <img src="./img/contacto__phone.png" alt="" class="w-25">
-                    <p class="text-white mt-3">0800-345-2372</p>
+                    <p class="text-white mt-3 text-center">0800-345-2372</p>
                 </div>
                 <div class="col-12 col-md-3 d-flex flex-column justify-content-center align-items-center">
                     <img src="./img/contacto__email.png" alt="" class="w-25">
-                    <p class="text-white mt-3">info@negociosuno.com
+                    <p class="text-white mt-3 text-center">info@negociosuno.com
                     </p>
                 </div>
                 <div class="col-12 col-md-3 d-flex flex-column justify-content-center align-items-center">
                     <img src="./img/contacto__map.png" alt="" class="w-25">
-                    <p class="text-white mt-3">Maipu Nº 374 2º
+                    <p class="text-white mt-3 text-center">Maipu Nº 374 2º
                         C.A.B.A</p>
                 </div>
             </div>
@@ -699,9 +714,12 @@
                     </p>
                     <form action="form.php" method="POST" class="">
 
-                        <input type="text" name="nombre" class="form-control mt-3 shadow" placeholder="Ingrese su nombre" required>
-                        <input type="email" name="email" class="form-control mt-3 shadow" placeholder="Ingrese su email" required>
-                        <input type="text" name="telefono" class="form-control mt-3 shadow" placeholder="Ingrese su teléfono" required>
+                        <input type="text" name="nombre" class="form-control mt-3 shadow"
+                            placeholder="Ingrese su nombre" required>
+                        <input type="email" name="email" class="form-control mt-3 shadow" placeholder="Ingrese su email"
+                            required>
+                        <input type="text" name="telefono" class="form-control mt-3 shadow"
+                            placeholder="Ingrese su teléfono" required>
                         <select name="ecosistema" id="" class="form-control mt-3 shadow" required>
                             <option value="pagouno">Seleccione </option>
                             <option value="todoenuno">todoenUno</option>
@@ -752,7 +770,7 @@
             <div class="cotainer px-4 px-md-5">
                 <hr class="text-white">
                 <p class="footer__copy text-center text-white p-0 m-0">
-                    © Copyright 2021. Todos los derechos reservados. || Diseño negociosUno 
+                    © Copyright 2021. Todos los derechos reservados. || Diseño negociosUno
                 </p>
             </div>
 
@@ -805,6 +823,12 @@
             }
         })
     </script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
 
 
 
