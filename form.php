@@ -42,7 +42,7 @@
 
 <?php
 
-$destinatario = 'ferfit16@gmail.com';
+$destinatario = 'consultas@negociosuno.com';
 $from = 'negociosUno@negociosuno.com';
 $nombre = $_POST['nombre'];
 $telefono = $_POST['telefono'];

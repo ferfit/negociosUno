@@ -225,6 +225,9 @@ body{
 .contacto__boton-enviar{
     background-color:#0a0965 ;
 }
+.contacto__boton-enviar:active{
+    background-color:#0a0965 ;
+}
 
 
 @media (min-width: 768px) { 
