@@ -52,7 +52,6 @@ body{
 .header{
     background-image: linear-gradient(0deg, rgba(66,84,101,0.8), rgba(66,84,101,0.8)), url(../img/banner__fondo.jpg);
     height: 100vh;
-    /*: all 500ms ease-in-out;*/
 }
 .header__img{
     width: 95%;
@@ -87,6 +86,9 @@ body{
 .pago{
     background-image: linear-gradient(0deg, rgba(10,9,101,0.55), rgba(10,9,101,0.55)), url(../img/pago__fondo.jpg);
 }
+.pago__logo{
+    width: 50%;
+}
 .pago__parrafo{
     text-align: justify;
     font-size: 16px;
@@ -119,9 +121,6 @@ body{
     position: relative;
 }
 .todo__logo{
-    position: absolute;
-    top: -50px;
-    left: 20px;
     width: 55%;
 }
 .todo__parrafo{
@@ -146,7 +145,7 @@ body{
     background-image: linear-gradient(0deg, rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url(../img/entrada__fondo.jpg);
 }
 .entrada__logo{
-    width: 60%;
+    width: 55%;
 }
 .entrada__red{
     background-color: #293332;
@@ -172,7 +171,7 @@ body{
     left: 10px;
 }
 .opherton__parrafo{
-    margin-top: 60px;
+    margin-top: 34px;
 }
 
 /*----------------------------------------------------------------*/
@@ -189,14 +188,9 @@ body{
         background-image: linear-gradient(0deg, rgba(10,9,101,0.5), rgba(10,9,101,0.5)), url(../img/firstcripto__fondo.jpg);
 } 
 .firstcripto__logo{
-    width: 100%;
-    position: relative;
-    top: -84px;
-    left: -59px;
+    width: 65%;
 }
-.firstcripto__parrafo{
-    margin-top: -116px;
-}
+
 
 /*----------------------------------------------------------------*/
 /*                            Publicidad                          */
@@ -267,19 +261,6 @@ body{
         width: 100%;
     }
 
-    /*Todo*/
-    .todo__logo{
-        top: -50px;
-        left: 153px;
-    }
-    .todo__parrafo{
-        margin-top: 150px;
-    } 
-
-    /*Entrada*/
-    .entrada__logo{
-        width: 60%;
-    }
 
      /*Opherton*/
      .opherton__logo{
@@ -289,13 +270,6 @@ body{
     /*Valores*/
     .valores__imagen{
         object-fit: cover;
-    }
-    .firstcripto__logo{
-        top: -86px;
-        left: -62px;
-    }
-    .firstcripto__parrafo {
-        margin-top: -126px;
     }
 
     /*Publicidad*/
@@ -327,9 +301,6 @@ body{
     }
 
     /*Todo*/
-    .todo__logo{
-        left: 210px;
-    }
     .todo__cont-redes{
         padding-left: 100px;
     }
@@ -353,14 +324,9 @@ body{
         width:60%;
         left: 182px;
     }
-
     /*Firstcripto*/
     .firstcripto__logo{
-        top: -125px;
-        left: -84px;
-    }
-    .firstcripto__parrafo {
-        margin-top: -199px;
+        width: 60%;
     }
 
     /*Publicidad*/
@@ -384,20 +350,18 @@ body{
     }
 
     /*Pago*/
+    .pago__logo{
+        width: 25%;
+    }
     .pago__iva{
         left: 30px;
     }
 
     /*Todo*/
-    .todo__titulo{
-        margin-top: 120px;
-    }
     .todo__logo{
-        width: 40%;
-        top: -75px;
-        left: 336px;
+        width: 30%;
     }
-    .todo__parrafo{
+    .todo__titulo{
         margin-top: 120px;
     }
     .todo__cont-leer{
@@ -406,7 +370,7 @@ body{
 
     /*Entrada*/
     .entrada__logo{
-        width: 40%;
+        width: 30%;
     }
 
     /*Vision*/
@@ -425,14 +389,9 @@ body{
         width: 70%;
     }
 
-    /*FirstCripto*/
+    /*Firstcripto*/
     .firstcripto__logo{
-        width: 60%;
-        top: -70px;
-        left: -55px;
-    }
-    .firstcripto__parrafo {
-        margin-top: -1;
+        width: 40%;
     }
 
     /*Publicidad*/
@@ -457,21 +416,9 @@ body{
     .todo__titulo{
         margin-top: 128px;
     }
-    .todo__logo{
-        width: 30%;
-        left: 460px;
-        top: -50px;
-    }
-    .todo__parrafo{
-        margin-top: 130px;
-    }
+
     .todo__cont-leer {
         padding-left: 55px;
-    }
-
-    /*Entrada*/
-    .entrada__logo{
-        width: 31%;
     }
 
     /*Vision*/
@@ -483,16 +430,6 @@ body{
     .opherton__logo{
         width:31%;
         left: 440px;
-    }
-
-    /*FirstCripto*/
-    .firstcripto__logo{
-        width: 60%;
-        top: -102px;
-        left: -71px;
-    }
-    .firstcripto__parrafo {
-        margin-top: -160px;
     }
 
     /*Publicidad*/
