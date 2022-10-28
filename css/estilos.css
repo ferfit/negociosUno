@@ -163,7 +163,7 @@ body{
 /*----------------------------------------------------------------*/
 .opherton {
     background-image: linear-gradient(
-0deg, rgba(9,124,119,0.65), rgba(9,124,119,0.65)), url(../img/opherton__fondo.jpg);
+0deg, rgba(38, 9, 124, 0.65), rgba(207, 215, 214, 0.65)), url(../img/academia_fondo.jpg);
 }
 .opherton__logo{
     margin-top: 2px;
@@ -189,6 +189,10 @@ body{
 } 
 .firstcripto__logo{
     width: 65%;
+}
+
+.splide__arrow.splide__arrow--next,.splide__arrow.splide__arrow--prev, .splide__pagination__page.is-active{
+    display: none !important;
 }
 
 
